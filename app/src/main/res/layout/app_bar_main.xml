@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray"
+    android:orientation="vertical"
+    tools:context="com.example.golit.napoleonproject.activity.MainActivity">
+
+    <!--<android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.design.widget.AppBarLayout>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_small_16"
+        android:paddingTop="@dimen/padding_small_16">
+
+        <LinearLayout
+            android:id="@+id/search_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spacing_huge_40"
+                android:layout_weight="1"
+                android:paddingRight="@dimen/padding_very_small_8"
+                android:src="@drawable/rectangle_rounded_white" />
+
+            <ImageView
+                android:id="@+id/service_image_view"
+                android:layout_width="@dimen/spacing_huge_40"
+                android:layout_height="@dimen/spacing_huge_40"
+                android:background="@drawable/rectangle_rounded_white"
+                android:src="@drawable/ic_filter_list_24dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_small_16"
+            android:layout_marginRight="@dimen/padding_medial_56"
+            android:layout_marginTop="@dimen/padding_very_small_8">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_search_24dp" />
+
+            <EditText
+                android:id="@+id/search_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:lines="1"
+                android:hint="@string/search_hint"
+                android:textSize="@dimen/font_large_18" />
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/top10_text_view"
+                style="@style/SelectButtonStyle"
+                android:layout_alignParentLeft="true"
+                android:text="@string/top10"
+                />
+            <TextView
+                android:id="@+id/shops_text_view"
+                style="@style/SelectButtonStyle"
+                android:layout_centerHorizontal="true"
+                android:text="@string/shops"/>
+            <TextView
+                android:id="@+id/products_text_view"
+                style="@style/SelectButtonStyle"
+                android:layout_alignParentRight="true"
+                android:text="@string/products" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/content_main" />
+
+
+</LinearLayout>

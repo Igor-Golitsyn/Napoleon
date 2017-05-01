@@ -1,0 +1,7 @@
+#Mon May 01 18:26:20 YEKT 2017
+base.0=C\:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_73c0aaf63dd240395f068bd716797aa237da3867
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_508901d7fc33c49bb2da2519d7305a0ef2880f25\\classes.dex
+base.1=C\:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_508901d7fc33c49bb2da2519d7305a0ef2880f25
+file.0=C\:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_73c0aaf63dd240395f068bd716797aa237da3867\\classes.dex
