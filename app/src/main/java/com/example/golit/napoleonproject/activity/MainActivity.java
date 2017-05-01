@@ -126,31 +126,25 @@ public class MainActivity extends AppCompatActivity
     @OnClick(R.id.top10_text_view)
     public void onClickTop10() {
         Log.d(TAG, "onClickTop10");
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            top10TextView.setBackground(getDrawable(R.drawable.rectangle_rounded_dark));
-            shopsTextView.setBackground(null);
-            productsTextView.setBackground(null);
-        }
+            top10TextView.setBackgroundResource(R.drawable.rectangle_rounded_dark);
+            shopsTextView.setBackgroundResource(0);
+            productsTextView.setBackgroundResource(0);
     }
 
     @OnClick(R.id.shops_text_view)
     public void onClickShops() {
         Log.d(TAG, "onClickShops");
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            shopsTextView.setBackground(getDrawable(R.drawable.rectangle_rounded_dark));
-            top10TextView.setBackground(null);
-            productsTextView.setBackground(null);
-        }
+            shopsTextView.setBackgroundResource(R.drawable.rectangle_rounded_dark);
+            top10TextView.setBackgroundResource(0);
+            productsTextView.setBackgroundResource(0);
     }
 
     @OnClick(R.id.products_text_view)
     public void onClickProducts() {
         Log.d(TAG, "onClickProducts");
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            productsTextView.setBackground(getDrawable(R.drawable.rectangle_rounded_dark));
-            shopsTextView.setBackground(null);
-            top10TextView.setBackground(null);
-        }
+            productsTextView.setBackgroundResource(R.drawable.rectangle_rounded_dark);
+            shopsTextView.setBackgroundResource(0);
+            top10TextView.setBackgroundResource(0);
     }
 
     @OnClick(R.id.service_image_view)
