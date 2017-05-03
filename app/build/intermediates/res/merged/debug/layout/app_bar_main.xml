@@ -37,8 +37,7 @@
                 android:layout_width="@dimen/spacing_huge_40"
                 android:layout_height="@dimen/spacing_huge_40"
                 android:background="@drawable/rectangle_rounded_white"
-                android:src="@drawable/ic_filter_list_24dp"
-                />
+                android:src="@drawable/ic_filter_list_24dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -58,27 +57,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/colorWhite"
-                android:lines="1"
                 android:hint="@string/search_hint"
+                android:lines="1"
                 android:textSize="@dimen/font_large_18" />
         </LinearLayout>
 
-            <TextView
-                android:id="@+id/top10_text_view"
-                style="@style/SelectButtonStyle"
-                android:layout_alignParentLeft="true"
-                android:text="@string/top10"
-                />
-            <TextView
-                android:id="@+id/shops_text_view"
-                style="@style/SelectButtonStyle"
-                android:layout_centerHorizontal="true"
-                android:text="@string/shops"/>
-            <TextView
-                android:id="@+id/products_text_view"
-                style="@style/SelectButtonStyle"
-                android:layout_alignParentRight="true"
-                android:text="@string/products" />
+        <TextView
+            android:id="@+id/top10_text_view"
+            style="@style/SelectButtonStyle"
+            android:layout_alignParentLeft="true"
+            android:text="@string/top10" />
+
+        <TextView
+            android:id="@+id/shops_text_view"
+            style="@style/SelectButtonStyle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/shops" />
+
+        <TextView
+            android:id="@+id/products_text_view"
+            style="@style/SelectButtonStyle"
+            android:layout_alignParentRight="true"
+            android:text="@string/products" />
 
     </RelativeLayout>
 

@@ -1,7 +1,6 @@
 package com.example.golit.napoleonproject.activity;
 
 import android.content.Context;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.annotation.NonNull;
@@ -118,25 +117,25 @@ public class MainActivity extends AppCompatActivity
     @OnClick(R.id.top10_text_view)
     public void onClickTop10() {
         Log.d(TAG, "onClickTop10");
-            top10TextView.setBackgroundResource(R.drawable.rectangle_rounded_dark);
-            shopsTextView.setBackgroundResource(0);
-            productsTextView.setBackgroundResource(0);
+        top10TextView.setBackgroundResource(R.drawable.rectangle_rounded_dark);
+        shopsTextView.setBackgroundResource(0);
+        productsTextView.setBackgroundResource(0);
     }
 
     @OnClick(R.id.shops_text_view)
     public void onClickShops() {
         Log.d(TAG, "onClickShops");
-            shopsTextView.setBackgroundResource(R.drawable.rectangle_rounded_dark);
-            top10TextView.setBackgroundResource(0);
-            productsTextView.setBackgroundResource(0);
+        shopsTextView.setBackgroundResource(R.drawable.rectangle_rounded_dark);
+        top10TextView.setBackgroundResource(0);
+        productsTextView.setBackgroundResource(0);
     }
 
     @OnClick(R.id.products_text_view)
     public void onClickProducts() {
         Log.d(TAG, "onClickProducts");
-            productsTextView.setBackgroundResource(R.drawable.rectangle_rounded_dark);
-            shopsTextView.setBackgroundResource(0);
-            top10TextView.setBackgroundResource(0);
+        productsTextView.setBackgroundResource(R.drawable.rectangle_rounded_dark);
+        shopsTextView.setBackgroundResource(0);
+        top10TextView.setBackgroundResource(0);
     }
 
     @OnClick(R.id.service_image_view)
@@ -233,7 +232,6 @@ public class MainActivity extends AppCompatActivity
 
     private void inflateAction() {
         Log.d(TAG, "inflateAction");
-        ArrayList<View> viewArrayList =  new ArrayList<>();
         for (ActionRes actionRes : actionFromSite) {
             LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View view = inflater.inflate(R.layout.horizontal_card, null);
@@ -245,17 +243,46 @@ public class MainActivity extends AppCompatActivity
             PicassoCache.getPicassoInstance(this).load(actionRes.getUrlThumbImage()).centerCrop().fit().into(image);
             textHorizCardLineOne.setText(actionRes.getLineOne());
             textHorizCardLineTwo.setText(actionRes.getLineTwo());
-            viewArrayList.add(view);
         }
-
         horizontalScrollView.setOnTouchListener(new View.OnTouchListener() {
+            int scrollXOld = 0;
+
             @Override
             public boolean onTouch(View v, MotionEvent event) {
+                int pagesCount = horizllScrol.getChildCount();
+                int pageLengthInPx = horizllScrol.getMeasuredWidth() / pagesCount;
+                int segment = (llScroll.getWidth() - pageLengthInPx) / 2;
+                int move;
                 if (event.getAction() == MotionEvent.ACTION_UP) {
+                    if (scrollXOld < horizontalScrollView.getScrollX()) move = 1;
+                    else {
+                        if (scrollXOld > horizontalScrollView.getScrollX()) move = -1;
+                        else move = 0;
+                    }
+                    switch (move) {
+                        case 1:
+                            if (scrollXOld == 0) {
+                                horizontalScrollView.scrollTo(pageLengthInPx - segment, 0);
+                            } else {
+                                horizontalScrollView.scrollTo(scrollXOld + pageLengthInPx, 0);
+                            }
+                            break;
+                        case -1:
+                            if (scrollXOld == horizllScrol.getMeasuredWidth() - (pageLengthInPx + 2 * segment)) {
+                                horizontalScrollView.scrollTo(scrollXOld - (pageLengthInPx - segment), 0);
+                            } else {
+                                horizontalScrollView.scrollTo(scrollXOld - pageLengthInPx, 0);
+                            }
+                    }
+                    scrollXOld = horizontalScrollView.getScrollX();
+                }
+
+                /*if (event.getAction() == MotionEvent.ACTION_UP) {
                     float currentPosition = horizontalScrollView.getScrollX();
                     float pagesCount = horizllScrol.getChildCount();
                     float pageLengthInPx = horizllScrol.getMeasuredWidth() / pagesCount;
                     float currentPage = currentPosition / pageLengthInPx;
+
 
                     Boolean isBehindHalfScreen = currentPage - (int) currentPage > 0.5;
 
@@ -266,8 +293,9 @@ public class MainActivity extends AppCompatActivity
                         edgePosition = (int) currentPage * pageLengthInPx;
                     }
 
+                    System.out.println("currentPosition=" + currentPosition + " currentPage"+ currentPage + " edgePosition" + edgePosition);
                     horizontalScrollView.scrollTo((int) edgePosition, 0);
-                }
+                }*/
 
                 return false;
             }
