@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Java\\Napoleon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_filter_list_24dp.png",
-        "source": "C:\\Java\\Napoleon\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_filter_list_24dp.png"
-    },
-    {
         "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_filter_list_24dp.png",
         "source": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_filter_list_24dp.png"
     },
@@ -12,15 +8,7 @@
         "source": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_shopping_cart_24dp.png"
     },
     {
-        "merged": "C:\\Java\\Napoleon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_search_24dp.png",
-        "source": "C:\\Java\\Napoleon\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_search_24dp.png"
-    },
-    {
         "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_search_24dp.png",
         "source": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_search_24dp.png"
-    },
-    {
-        "merged": "C:\\Java\\Napoleon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_shopping_cart_24dp.png",
-        "source": "C:\\Java\\Napoleon\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_shopping_cart_24dp.png"
     }
 ]

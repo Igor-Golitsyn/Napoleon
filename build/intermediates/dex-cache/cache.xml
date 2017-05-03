@@ -3,12 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\golit\.android\build-cache\97310499f09bf68bd3624fd19d323500303ed84d\output\jars\classes.jar"
+        jar="C:\JAVA\napoleon\NapoleonProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="813900fb2a98c32193da6f120642e407f56af59b">
-        <dex dex="C:\JAVA\napoleon\NapoleonProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b745f33804816e9f95ceaf608f91c478c70f896f\classes.dex" />
+        sha1="ce1b86453cd5e0d6888f1ee725593353b03e72a4">
+        <dex dex="C:\JAVA\napoleon\NapoleonProject\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_73c0aaf63dd240395f068bd716797aa237da3867\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -18,15 +18,6 @@
         revision="25.0.2"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
         <dex dex="C:\JAVA\napoleon\NapoleonProject\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_508901d7fc33c49bb2da2519d7305a0ef2880f25\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\JAVA\napoleon\NapoleonProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="50f9f1ebe7fe777fc9d5aba8b8b5728b9b84af48">
-        <dex dex="C:\JAVA\napoleon\NapoleonProject\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_73c0aaf63dd240395f068bd716797aa237da3867\classes.dex" />
     </item>
 
 </items>

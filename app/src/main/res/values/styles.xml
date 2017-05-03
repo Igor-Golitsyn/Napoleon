@@ -23,7 +23,10 @@
         <item name="android:layout_marginTop">@dimen/padding_medium_72</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:padding">@dimen/padding_small_16</item>
+        <item name="android:paddingLeft">@dimen/padding_small_16</item>
+        <item name="android:paddingRight">@dimen/padding_small_16</item>
+        <item name="android:paddingTop">@dimen/padding_very_small_8</item>
+        <item name="android:paddingBottom">@dimen/padding_very_small_8</item>
         <item name="android:textColor">@color/colorWhite</item>
         <item name="android:textSize">@dimen/font_large_18</item>
     </style>
