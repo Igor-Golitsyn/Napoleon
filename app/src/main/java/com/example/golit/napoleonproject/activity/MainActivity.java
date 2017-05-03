@@ -158,7 +158,8 @@ public class MainActivity extends AppCompatActivity
 
         if (NetworkUtils.isNetworkAvailable(this)) {
             Retrofit retrofit = new Retrofit.Builder().baseUrl(ConstantManager.DATA_GET).addConverterFactory(GsonConverterFactory.create()).build();
-            retrofit.create(GetBinsFromSite.class).getActionResList().enqueue(new Callback<List<ActionRes>>() {
+            GetBinsFromSite service = retrofit.create(GetBinsFromSite.class);
+            service.getActionResList().enqueue(new Callback<List<ActionRes>>() {
                 @Override
                 public void onResponse(Call<List<ActionRes>> call, Response<List<ActionRes>> response) {
                     if (response.code() == 200) {
@@ -171,7 +172,7 @@ public class MainActivity extends AppCompatActivity
                 public void onFailure(Call<List<ActionRes>> call, Throwable t) {
                 }
             });
-            retrofit.create(GetBinsFromSite.class).getDataResList().enqueue(new Callback<List<DataRes>>() {
+            service.getDataResList().enqueue(new Callback<List<DataRes>>() {
                 @Override
                 public void onResponse(Call<List<DataRes>> call, Response<List<DataRes>> response) {
                     if (response.code() == 200) {

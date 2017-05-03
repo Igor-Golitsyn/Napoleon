@@ -1,11 +1,23 @@
 [
     {
+        "merged": "C:\\Java\\Napoleon\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\golit\\.android\\build-cache\\ada656b3710b9378d1388e7e0046984cd04b6c68\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
         "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
         "source": "C:\\Users\\golit\\.android\\build-cache\\ebdc77a31c6ac9f3ff07d13dbc7b5740448df7b1\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
     },
     {
+        "merged": "C:\\Java\\Napoleon\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\golit\\.android\\build-cache\\ada656b3710b9378d1388e7e0046984cd04b6c68\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
         "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
         "source": "C:\\Users\\golit\\.android\\build-cache\\ebdc77a31c6ac9f3ff07d13dbc7b5740448df7b1\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Java\\Napoleon\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\golit\\.android\\build-cache\\ada656b3710b9378d1388e7e0046984cd04b6c68\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
@@ -20,7 +32,19 @@
         "source": "C:\\Users\\golit\\.android\\build-cache\\ebdc77a31c6ac9f3ff07d13dbc7b5740448df7b1\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
     },
     {
+        "merged": "C:\\Java\\Napoleon\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\golit\\.android\\build-cache\\ada656b3710b9378d1388e7e0046984cd04b6c68\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Java\\Napoleon\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\golit\\.android\\build-cache\\ada656b3710b9378d1388e7e0046984cd04b6c68\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
         "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
         "source": "C:\\Users\\golit\\.android\\build-cache\\ebdc77a31c6ac9f3ff07d13dbc7b5740448df7b1\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Java\\Napoleon\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\golit\\.android\\build-cache\\ada656b3710b9378d1388e7e0046984cd04b6c68\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
     }
 ]

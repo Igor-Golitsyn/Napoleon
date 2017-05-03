@@ -22,13 +22,13 @@ import java.lang.Override;
 public class MainActivity_ViewBinding<T extends MainActivity> implements Unbinder {
   protected T target;
 
-  private View view2131558529;
+  private View view2131558522;
 
-  private View view2131558527;
+  private View view2131558520;
 
-  private View view2131558528;
+  private View view2131558521;
 
-  private View view2131558525;
+  private View view2131558518;
 
   @UiThread
   public MainActivity_ViewBinding(final T target, View source) {
@@ -39,7 +39,7 @@ public class MainActivity_ViewBinding<T extends MainActivity> implements Unbinde
     target.navigationView = Utils.findRequiredViewAsType(source, R.id.nav_view, "field 'navigationView'", NavigationView.class);
     view = Utils.findRequiredView(source, R.id.products_text_view, "field 'productsTextView' and method 'onClickProducts'");
     target.productsTextView = Utils.castView(view, R.id.products_text_view, "field 'productsTextView'", TextView.class);
-    view2131558529 = view;
+    view2131558522 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -48,7 +48,7 @@ public class MainActivity_ViewBinding<T extends MainActivity> implements Unbinde
     });
     view = Utils.findRequiredView(source, R.id.top10_text_view, "field 'top10TextView' and method 'onClickTop10'");
     target.top10TextView = Utils.castView(view, R.id.top10_text_view, "field 'top10TextView'", TextView.class);
-    view2131558527 = view;
+    view2131558520 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -57,7 +57,7 @@ public class MainActivity_ViewBinding<T extends MainActivity> implements Unbinde
     });
     view = Utils.findRequiredView(source, R.id.shops_text_view, "field 'shopsTextView' and method 'onClickShops'");
     target.shopsTextView = Utils.castView(view, R.id.shops_text_view, "field 'shopsTextView'", TextView.class);
-    view2131558528 = view;
+    view2131558521 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -67,7 +67,7 @@ public class MainActivity_ViewBinding<T extends MainActivity> implements Unbinde
     target.searchEditText = Utils.findRequiredViewAsType(source, R.id.search_edit_text, "field 'searchEditText'", EditText.class);
     view = Utils.findRequiredView(source, R.id.service_image_view, "field 'serviceImageView' and method 'onClickServiceImageView'");
     target.serviceImageView = Utils.castView(view, R.id.service_image_view, "field 'serviceImageView'", ImageView.class);
-    view2131558525 = view;
+    view2131558518 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -98,14 +98,14 @@ public class MainActivity_ViewBinding<T extends MainActivity> implements Unbinde
     target.horizllScrol = null;
     target.horizontalScrollView = null;
 
-    view2131558529.setOnClickListener(null);
-    view2131558529 = null;
-    view2131558527.setOnClickListener(null);
-    view2131558527 = null;
-    view2131558528.setOnClickListener(null);
-    view2131558528 = null;
-    view2131558525.setOnClickListener(null);
-    view2131558525 = null;
+    view2131558522.setOnClickListener(null);
+    view2131558522 = null;
+    view2131558520.setOnClickListener(null);
+    view2131558520 = null;
+    view2131558521.setOnClickListener(null);
+    view2131558521 = null;
+    view2131558518.setOnClickListener(null);
+    view2131558518 = null;
 
     this.target = null;
   }

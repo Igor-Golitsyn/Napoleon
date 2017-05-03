@@ -1,10 +1,18 @@
 [
     {
+        "merged": "C:\\Java\\Napoleon\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\golit\\.android\\build-cache\\300c49ac1e577cb3997530ec50c3cc33768a1b8b\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
         "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
         "source": "C:\\Users\\golit\\.android\\build-cache\\16848276af84f7aadef08e71cd4571820a89588f\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
         "source": "C:\\Users\\golit\\.android\\build-cache\\16848276af84f7aadef08e71cd4571820a89588f\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Java\\Napoleon\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\golit\\.android\\build-cache\\300c49ac1e577cb3997530ec50c3cc33768a1b8b\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     }
 ]
