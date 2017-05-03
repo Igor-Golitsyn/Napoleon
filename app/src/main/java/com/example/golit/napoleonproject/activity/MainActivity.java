@@ -28,6 +28,7 @@ import com.example.golit.napoleonproject.bins.DataRes;
 import com.example.golit.napoleonproject.bins.GetBinsFromSite;
 import com.example.golit.napoleonproject.utils.ConstantManager;
 import com.example.golit.napoleonproject.utils.NetworkUtils;
+import com.example.golit.napoleonproject.utils.PicassoCache;
 import com.squareup.picasso.OkHttpDownloader;
 import com.squareup.picasso.Picasso;
 
@@ -83,12 +84,12 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
         if (savedInstanceState == null) {
 
-            Picasso.Builder builder = new Picasso.Builder(this);
+            /*Picasso.Builder builder = new Picasso.Builder(this);
             builder.downloader(new OkHttpDownloader(this, Integer.MAX_VALUE));
             Picasso built = builder.build();
             built.setIndicatorsEnabled(false);
             built.setLoggingEnabled(false);
-            Picasso.setSingletonInstance(built);
+            Picasso.setSingletonInstance(built);*/
 
             getData();
         } else {
@@ -224,7 +225,7 @@ public class MainActivity extends AppCompatActivity
             TextView textPercentage = (TextView) view.findViewById(R.id.card_percentage);
             TextView textPrice = (TextView) view.findViewById(R.id.card_price);
             TextView textPriceSeller = (TextView) view.findViewById(R.id.card_price_seller);
-            Picasso.with(this).load(urlThumbImage).centerCrop().fit().into(image);
+            //Picasso.with(this).load(urlThumbImage).centerCrop().fit().into(image);
             textName.setText(name);
             textMiddleLine.setText(type == 1 ? descr : group);
             float pr = Float.parseFloat(price);
