@@ -225,7 +225,7 @@ public class MainActivity extends AppCompatActivity
             TextView textPercentage = (TextView) view.findViewById(R.id.card_percentage);
             TextView textPrice = (TextView) view.findViewById(R.id.card_price);
             TextView textPriceSeller = (TextView) view.findViewById(R.id.card_price_seller);
-            //Picasso.with(this).load(urlThumbImage).centerCrop().fit().into(image);
+            PicassoCache.getPicassoInstance(this).load(urlThumbImage).centerCrop().fit().into(image);
             textName.setText(name);
             textMiddleLine.setText(type == 1 ? descr : group);
             float pr = Float.parseFloat(price);
@@ -250,7 +250,7 @@ public class MainActivity extends AppCompatActivity
             ImageView image = (ImageView) view.findViewById(R.id.horizontal_card_image);
             TextView textHorizCardLineOne = (TextView) view.findViewById(R.id.horizontal_card_lineOne);
             TextView textHorizCardLineTwo = (TextView) view.findViewById(R.id.horizontal_card_lineTwo);
-            Picasso.with(this).load(actionRes.getUrlThumbImage()).centerCrop().fit().into(image);
+            PicassoCache.getPicassoInstance(this).load(actionRes.getUrlThumbImage()).centerCrop().fit().into(image);
             textHorizCardLineOne.setText(actionRes.getLineOne());
             textHorizCardLineTwo.setText(actionRes.getLineTwo());
         }

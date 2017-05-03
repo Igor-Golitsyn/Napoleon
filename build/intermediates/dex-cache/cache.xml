@@ -2,211 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\golit\.android\build-cache\19e9e5367b0629a17bcb2dc40eb65a775421c9c4\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\JAVA\napoleon\NapoleonProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\classes_1a52453e0702d1df07088af6de69e1d930e001cd.jar" />
+        sha1="50f9f1ebe7fe777fc9d5aba8b8b5728b9b84af48">
+        <dex dex="C:\JAVA\napoleon\NapoleonProject\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_73c0aaf63dd240395f068bd716797aa237da3867\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\golit\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\JAVA\napoleon\NapoleonProject\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_81b0ba10c8041b99d18ae7e04125edd1b5a39387.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\okhttp-3.3.0_ae9178797f307f6f4f0d94b10421bf43bbedaf5e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.android\build-cache\4121e2acd6ba90e173ecc1e8b6357e7e38519854\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\classes_166feef770aedb629fcdc100df25acb03aea0adf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.android\build-cache\880286eda273a4fbb41b069c009cec172dc76b79\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\classes_dc5e922991e0c261e524826871ec6a21015fe0c4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.android\build-cache\23d72dfb8bd3ad4aaebd8fe09164baa0c6b4c73c\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\classes_d77a662b886c68e9843dbe7127bb3025539b6c4d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.android\build-cache\6d459cb3749e2966454acf118946e6e2d75bceff\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\classes_7763de1b19b479df456a2ca7dfa433e2d8695353.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.android\build-cache\6c72909c93bb9f5e331f0e7b37fa443764b73956\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\classes_eaa6705f63990daa06db9212fbf1fc90ae319580.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.android\build-cache\dc8d280569c6df5c419138c6b33b78085e848376\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\classes_a5831664fe40ba216c08639a290825a51d26ca89.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.4.0\40340c0748190fe897baf7bffbc1b282734294e5\okhttp-2.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\okhttp-2.4.0_9b7b6c4739af55255975f88cbf12966cac7857df.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_afe14ad84682f0a832585f246e6ebc6c0bd0ce6a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.android\build-cache\ada656b3710b9378d1388e7e0046984cd04b6c68\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\classes_396b855b44ae8dd2d46d1f134883002fe416caec.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.android\build-cache\887b533556c748eb1271267cf2aaf9ca12f766cf\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\classes_4faf1283cfe2552c96d6353ce111b22db4ab3277.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\gson-2.7_e015b849c6a92a221ad12b3a957f7b47208fbc25.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.android\build-cache\3f19a224f1ecc0f1ec0c7c1446f0a84f050979ed\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\classes_fc453139f7ff922c8ea8f1c76b77bac922a07e34.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.android\build-cache\8996341bc80bbf2db0362278b4545a190cec5c75\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\classes_74ea9aff355bb863a3523ecabca58d1ff0c0dff2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.android\build-cache\300c49ac1e577cb3997530ec50c3cc33768a1b8b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\classes_5a9aed854f660415b37a705952f236840f5fcfd2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.android\build-cache\141155abd46f57e67b6f17e11381ff3103f04a38\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\classes_d79b665f75c4677037fac0de79bafae0c5a07a31.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_b06d96d732eaf6b872ee3cf6e7b5ca8a6ba57fc0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\okio-1.8.0_8255eefc076dd0d42b3e46a466a0f49fae01b40d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_7ace5f84135507ac41b5f6328b449e050e4d2a2f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_ed35dd3511b7429b094f9cab96c3b084ce9ffb37.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\golit\.android\build-cache\499570de49d56b8e9b591b48f1236b114e8aeaa9\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="C:\Java\Napoleon\app\build\intermediates\pre-dexed\debug\classes_da1be0109afb641be43f8b3ab0c4aaa533bf3075.jar" />
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\JAVA\napoleon\NapoleonProject\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_508901d7fc33c49bb2da2519d7305a0ef2880f25\classes.dex" />
     </item>
 
 </items>

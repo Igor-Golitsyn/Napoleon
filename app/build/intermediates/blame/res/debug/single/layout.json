@@ -20,12 +20,12 @@
         "source": "C:\\Users\\golit\\.android\\build-cache\\ada656b3710b9378d1388e7e0046984cd04b6c68\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\golit\\.android\\build-cache\\ebdc77a31c6ac9f3ff07d13dbc7b5740448df7b1\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
         "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\golit\\.android\\build-cache\\ebdc77a31c6ac9f3ff07d13dbc7b5740448df7b1\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\golit\\.android\\build-cache\\ebdc77a31c6ac9f3ff07d13dbc7b5740448df7b1\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
