@@ -7,7 +7,6 @@ import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
@@ -16,6 +15,7 @@ import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
 import com.example.golit.napoleonproject.R;
+import com.paging.listview.PagingListView;
 import java.lang.IllegalStateException;
 import java.lang.Override;
 
@@ -76,8 +76,7 @@ public class MainActivity_ViewBinding<T extends MainActivity> implements Unbinde
     });
     target.scrollView = Utils.findRequiredViewAsType(source, R.id.scroll_view, "field 'scrollView'", ScrollView.class);
     target.llScroll = Utils.findRequiredViewAsType(source, R.id.linear_lay_scroll_view, "field 'llScroll'", LinearLayout.class);
-    target.horizllScrol = Utils.findRequiredViewAsType(source, R.id.linear_lay_horiz_scroll_view, "field 'horizllScrol'", LinearLayout.class);
-    target.horizontalScrollView = Utils.findRequiredViewAsType(source, R.id.horiz_scroll_view, "field 'horizontalScrollView'", HorizontalScrollView.class);
+    target.pagingListView = Utils.findRequiredViewAsType(source, R.id.paging_list_view, "field 'pagingListView'", PagingListView.class);
   }
 
   @Override
@@ -95,8 +94,7 @@ public class MainActivity_ViewBinding<T extends MainActivity> implements Unbinde
     target.serviceImageView = null;
     target.scrollView = null;
     target.llScroll = null;
-    target.horizllScrol = null;
-    target.horizontalScrollView = null;
+    target.pagingListView = null;
 
     view2131558522.setOnClickListener(null);
     view2131558522 = null;

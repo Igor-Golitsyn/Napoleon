@@ -29,6 +29,7 @@ import com.example.golit.napoleonproject.bins.GetBinsFromSite;
 import com.example.golit.napoleonproject.utils.ConstantManager;
 import com.example.golit.napoleonproject.utils.NetworkUtils;
 import com.example.golit.napoleonproject.utils.PicassoCache;
+import com.paging.listview.PagingListView;
 import com.squareup.picasso.OkHttpDownloader;
 import com.squareup.picasso.Picasso;
 
@@ -69,10 +70,12 @@ public class MainActivity extends AppCompatActivity
     ScrollView scrollView;
     @BindView(R.id.linear_lay_scroll_view)
     LinearLayout llScroll;
-    @BindView(R.id.linear_lay_horiz_scroll_view)
+    /*@BindView(R.id.linear_lay_horiz_scroll_view)
     LinearLayout horizllScrol;
     @BindView(R.id.horiz_scroll_view)
-    HorizontalScrollView horizontalScrollView;
+    HorizontalScrollView horizontalScrollView;*/
+    @BindView(R.id.paging_list_view)
+    PagingListView pagingListView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -245,7 +248,8 @@ public class MainActivity extends AppCompatActivity
         for (ActionRes actionRes : actionFromSite) {
             LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View view = inflater.inflate(R.layout.horizontal_card, null);
-            horizllScrol.addView(view);
+            pagingListView.setHasMoreItems(true);
+            //horizllScrol.addView(view);
             System.out.println("addd=" + view.getId());
             ImageView image = (ImageView) view.findViewById(R.id.horizontal_card_image);
             TextView textHorizCardLineOne = (TextView) view.findViewById(R.id.horizontal_card_lineOne);
@@ -254,7 +258,7 @@ public class MainActivity extends AppCompatActivity
             textHorizCardLineOne.setText(actionRes.getLineOne());
             textHorizCardLineTwo.setText(actionRes.getLineTwo());
         }
-        horizontalScrollView.setOnTouchListener(new View.OnTouchListener() {
+        /*horizontalScrollView.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if (event.getAction() == MotionEvent.ACTION_UP) {
@@ -277,7 +281,7 @@ public class MainActivity extends AppCompatActivity
 
                 return false;
             }
-        });
+        });*/
     }
 
 }

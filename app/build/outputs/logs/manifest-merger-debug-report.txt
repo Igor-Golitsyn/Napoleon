@@ -35,6 +35,7 @@ MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\golit\.andr
 MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\golit\.android\build-cache\775b6c3e597f9215f55e01ca241f01aced900506\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\golit\.android\build-cache\4b06a4c37a94f88a3041d6e7a1ee14a3080f12a4\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\golit\.android\build-cache\9ac7e6e08a52b155f34b2e738df460d7f786512b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.github.nicolasjafelle:paginglistview:1.2] C:\Users\golit\.android\build-cache\97310499f09bf68bd3624fd19d323500303ed84d\output\AndroidManifest.xml:11:5-20
 	android:label
 		ADDED from C:\JAVA\napoleon\NapoleonProject\app\src\main\AndroidManifest.xml:10:9-41
 	android:supportsRtl
@@ -83,6 +84,7 @@ MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\golit\.android\bui
 MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\golit\.android\build-cache\3ac1dd95bb8f0c6db9d154c5d8cb78ef1e478928\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\golit\.android\build-cache\4b06a4c37a94f88a3041d6e7a1ee14a3080f12a4\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\golit\.android\build-cache\9ac7e6e08a52b155f34b2e738df460d7f786512b\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.github.nicolasjafelle:paginglistview:1.2] C:\Users\golit\.android\build-cache\97310499f09bf68bd3624fd19d323500303ed84d\output\AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] C:\Users\golit\.android\build-cache\16848276af84f7aadef08e71cd4571820a89588f\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
