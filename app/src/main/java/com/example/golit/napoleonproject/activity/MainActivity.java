@@ -1,6 +1,7 @@
 package com.example.golit.napoleonproject.activity;
 
 import android.content.Context;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.annotation.NonNull;
@@ -276,26 +277,6 @@ public class MainActivity extends AppCompatActivity
                     }
                     scrollXOld = horizontalScrollView.getScrollX();
                 }
-
-                /*if (event.getAction() == MotionEvent.ACTION_UP) {
-                    float currentPosition = horizontalScrollView.getScrollX();
-                    float pagesCount = horizllScrol.getChildCount();
-                    float pageLengthInPx = horizllScrol.getMeasuredWidth() / pagesCount;
-                    float currentPage = currentPosition / pageLengthInPx;
-
-
-                    Boolean isBehindHalfScreen = currentPage - (int) currentPage > 0.5;
-
-                    float edgePosition = 0;
-                    if (isBehindHalfScreen) {
-                        edgePosition = (int) (currentPage + 1) * pageLengthInPx;
-                    } else {
-                        edgePosition = (int) currentPage * pageLengthInPx;
-                    }
-
-                    System.out.println("currentPosition=" + currentPosition + " currentPage"+ currentPage + " edgePosition" + edgePosition);
-                    horizontalScrollView.scrollTo((int) edgePosition, 0);
-                }*/
 
                 return false;
             }
