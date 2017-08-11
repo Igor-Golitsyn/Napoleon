@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+        "outputFile": "C:\\Java\\NapoleonGit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "C:\\Users\\golit\\.android\\build-cache\\ebdc77a31c6ac9f3ff07d13dbc7b5740448df7b1\\output\\res\\values-port\\values-port.xml",
+                    "file": "C:\\Users\\golit\\.android\\build-cache\\ada656b3710b9378d1388e7e0046984cd04b6c68\\output\\res\\values-port\\values-port.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

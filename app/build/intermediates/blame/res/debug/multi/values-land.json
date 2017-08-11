@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+        "outputFile": "C:\\Java\\NapoleonGit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 120
                 },
                 "from": {
-                    "file": "C:\\Users\\golit\\.android\\build-cache\\ebdc77a31c6ac9f3ff07d13dbc7b5740448df7b1\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\golit\\.android\\build-cache\\ada656b3710b9378d1388e7e0046984cd04b6c68\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\Users\\golit\\.android\\build-cache\\ebdc77a31c6ac9f3ff07d13dbc7b5740448df7b1\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\golit\\.android\\build-cache\\ada656b3710b9378d1388e7e0046984cd04b6c68\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 255
                 },
                 "from": {
-                    "file": "C:\\Users\\golit\\.android\\build-cache\\ebdc77a31c6ac9f3ff07d13dbc7b5740448df7b1\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\golit\\.android\\build-cache\\ada656b3710b9378d1388e7e0046984cd04b6c68\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 323
                 },
                 "from": {
-                    "file": "C:\\Users\\golit\\.android\\build-cache\\ebdc77a31c6ac9f3ff07d13dbc7b5740448df7b1\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\golit\\.android\\build-cache\\ada656b3710b9378d1388e7e0046984cd04b6c68\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -88,7 +88,7 @@
                     "endOffset": 505
                 },
                 "from": {
-                    "file": "C:\\Users\\golit\\.android\\build-cache\\16848276af84f7aadef08e71cd4571820a89588f\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\golit\\.android\\build-cache\\300c49ac1e577cb3997530ec50c3cc33768a1b8b\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

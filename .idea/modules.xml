@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/NapoleonGit.iml" filepath="$PROJECT_DIR$/NapoleonGit.iml" />
       <module fileurl="file://$PROJECT_DIR$/NapoleonProject.iml" filepath="$PROJECT_DIR$/NapoleonProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

@@ -1,34 +1,34 @@
 [
     {
-        "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
-        "source": "C:\\Users\\golit\\.android\\build-cache\\16848276af84f7aadef08e71cd4571820a89588f\\output\\res\\drawable-v21\\avd_show_password.xml"
+        "merged": "C:\\Java\\NapoleonGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\golit\\.android\\build-cache\\ada656b3710b9378d1388e7e0046984cd04b6c68\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\golit\\.android\\build-cache\\ebdc77a31c6ac9f3ff07d13dbc7b5740448df7b1\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "merged": "C:\\Java\\NapoleonGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\golit\\.android\\build-cache\\300c49ac1e577cb3997530ec50c3cc33768a1b8b\\output\\res\\drawable-v21\\avd_show_password.xml"
     },
     {
-        "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
-        "source": "C:\\Users\\golit\\.android\\build-cache\\ebdc77a31c6ac9f3ff07d13dbc7b5740448df7b1\\output\\res\\drawable-v21\\notification_action_background.xml"
+        "merged": "C:\\Java\\NapoleonGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\golit\\.android\\build-cache\\ada656b3710b9378d1388e7e0046984cd04b6c68\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
-        "source": "C:\\Users\\golit\\.android\\build-cache\\16848276af84f7aadef08e71cd4571820a89588f\\output\\res\\drawable-v21\\design_password_eye.xml"
+        "merged": "C:\\Java\\NapoleonGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\golit\\.android\\build-cache\\300c49ac1e577cb3997530ec50c3cc33768a1b8b\\output\\res\\drawable-v21\\design_password_eye.xml"
     },
     {
-        "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
-        "source": "C:\\Users\\golit\\.android\\build-cache\\16848276af84f7aadef08e71cd4571820a89588f\\output\\res\\drawable-v21\\avd_hide_password.xml"
+        "merged": "C:\\Java\\NapoleonGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\golit\\.android\\build-cache\\300c49ac1e577cb3997530ec50c3cc33768a1b8b\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\Users\\golit\\.android\\build-cache\\ebdc77a31c6ac9f3ff07d13dbc7b5740448df7b1\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "C:\\Java\\NapoleonGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\golit\\.android\\build-cache\\ada656b3710b9378d1388e7e0046984cd04b6c68\\output\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
-        "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\golit\\.android\\build-cache\\16848276af84f7aadef08e71cd4571820a89588f\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+        "merged": "C:\\Java\\NapoleonGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\golit\\.android\\build-cache\\300c49ac1e577cb3997530ec50c3cc33768a1b8b\\output\\res\\drawable-v21\\avd_hide_password.xml"
     },
     {
-        "merged": "C:\\JAVA\\napoleon\\NapoleonProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\golit\\.android\\build-cache\\ebdc77a31c6ac9f3ff07d13dbc7b5740448df7b1\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "merged": "C:\\Java\\NapoleonGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\golit\\.android\\build-cache\\ada656b3710b9378d1388e7e0046984cd04b6c68\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     }
 ]
